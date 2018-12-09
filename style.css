@@ -1,0 +1,142 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background-color:royalblue;
+}
+
+header{
+    background: #36424A;
+    padding: 20px;
+    opacity:0.8;
+  
+    width: 100%;
+    
+    margin-bottom:30px;
+}
+header h1{
+    color:#FF953F;
+    margin-top:0;
+    float: left;
+    width: 25%;
+
+
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fff; 
+    font-weight: bolder; 
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black;
+
+}
+
+ul,
+ol{
+    list-style: none;
+   
+}
+nav{
+    font-family: 'Karla', sans-serif;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+    padding: 3px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 2s ease 0s;
+}
+
+nav li a:hover{
+    background-color: orange;
+
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top:0x; 
+    opacity: 0.8; 
+}
+
+#left-section{
+   float: left;
+    width: 20%;
+    margin-right: 110px;
+}
+
+.main-section{
+    float: left; 
+    width: 30%;
+    margin-right: 110px;
+    
+    
+}
+
+.right-section{
+    float: left;
+    width:20%;
+}
+
+#more {display: none;}
+
+form{
+    clear: both;
+    position: relative;
+    top: 50px;
+}
+
+fieldset{
+    text-align: center;
+    height: 110px;
+    width:87%;
+}
+
+#submit{
+   margin-left: 335%;
+   margin-top: 30%;
+    padding: 6px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background: #36424A;
+    transition: background-color 2s ease 0s;
+}
+
+#submit:hover{
+    background:red;
+
+}
+
+#namefield{
+    padding: 6px;
+}
+
+#readmoore{
+    background-color:white;
+    transition: background-color 2s ease 0s;
+
+}
+#readmoore:hover{
+    background-color:orange;
+
+}
+
+footer{
+    margin-top: 100px;
+    background: #36424A;
+    padding: 25px;
+    opacity: 0.3;
+
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
